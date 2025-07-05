@@ -1,0 +1,16 @@
+Message,Label
+"Your OTP is 123456 for transaction at Amazon. Do not share with anyone.",spam
+"Meeting scheduled for tomorrow at 2 PM in conference room A.",Appointment
+"Your bus ticket from Mumbai to Pune is confirmed. Seat 15A.",Bus
+"Your cab will arrive in 5 minutes. Driver: John, Vehicle: ABC123.",Cab
+"Your package has been delivered to your doorstep. Track ID: PKG789.",Delivery
+"Your credit card expires on 12/25. Please update your details.",Expiry
+"Flight AI101 from Delhi to Bangalore is delayed by 2 hours.",Flight
+"Your hotel booking at Grand Plaza is confirmed for March 15-17.",Hotel
+"Movie tickets booked for Avengers at 7 PM today. Enjoy!",Movie
+"Payment of $50 received for invoice #INV001. Thank you!",Payment
+"Your pickup is scheduled for tomorrow at 10 AM. Driver will call.",PickUp
+"Restaurant reservation confirmed for 8 PM tonight. Table for 4.",Reservation
+"Train 12345 from Chennai to Bangalore is on time. Platform 3.",Train
+"Hey, how are you doing? Let's catch up soon!",ham
+"System maintenance scheduled for tonight 2-4 AM. Service may be affected.",info 
