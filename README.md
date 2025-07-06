@@ -16,3 +16,8 @@ Quantized Low-Rank Adaptation Steps:
 Double Quantization - quantizing the quantization constants, the constants generated from block-wise quantization aproach from input tensors
 Paged optimizers - It transfers pages of memory from the GPU to the CPU when the GPU hits its limits.
 LoRA (Parameter Efficient Fine-tuning method) - adds a relatively small number of trainable parameters while keeping the original parameters fixed.
+
+# 3. Improving Fine-tuned Model using RAG Pipeline & LLama Index
+Stage 1 Document Preparation & Indexing: Load Docs -> Chunk Docs(LLMs have limited context window) -> Embed Chunks(word-embeddings) -> Load into VectorDB(VectorStoreIndex).
+Stage 2 Query Processing & Docs Retrieval: Input Query -> Retrieve Relevant Docs from VectorDB -> Prompt Template with Context.
+Stage 3 Response Generation: Prompt + Query -> Tokenizer -> LLM Inference -> Generate Response
